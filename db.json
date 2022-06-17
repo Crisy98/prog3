@@ -1,0 +1,24 @@
+{
+    "usuarios":[
+        {
+            "id": 1,
+            "nomUsuario":"almilcarrey",
+            "contraseña":"827ccb0eea8a706c4c34a16891f84e7b"
+        },
+        {
+            "id": 2,
+            "nomUsuario":"matiasaranda",
+            "contraseña":"01cfcd4f6b8770febfb40cb906715822"
+        },
+        {
+            "id": 3,
+            "nomUsuario":"grounty",
+            "contraseña":"c37bf859faf392800d739a41fe5af151"
+        },
+        {
+            "id": 4,
+            "nomUsuario":"crisy",
+            "contraseña":"099ebea48ea9666a7da2177267983138"
+        }
+    ]
+}
