@@ -1,7 +1,13 @@
 import React from "react";
 import loginImg from "../assets/sensor.jpg";
+import { useForm } from "react-hook-form";
+
+
 <h1>hola</h1>
- const Login = () => {
+//  const Login = () => {
+  export default function App() {
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
   return(
     
     <div>
@@ -33,7 +39,8 @@ import loginImg from "../assets/sensor.jpg";
     </div>
   )
  }
-export default Login;
+
+// export default Login;
   
 //   return (
     
