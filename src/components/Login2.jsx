@@ -72,13 +72,13 @@ function App() {
     }
   };
 
-  // Generate JSX code for error message
+  // genera JSX codigo para mensaje error 
   const renderErrorMessage = (name) =>
     name === errorMessages.name && (
       <div className="error">{errorMessages.message}</div>
     );
 
-  // JSX code for login form
+  // JSX codigo para login form
   const renderForm = (
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
