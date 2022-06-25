@@ -1,5 +1,5 @@
 import loginImg from "../assets/sensor.jpg";
-import { useForm } from "react-hook-form";
+//import { useForm } from "react-hook-form";
 
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
@@ -23,7 +23,7 @@ const SidebarLayout = () => (
     <Outlet />
   </>
 );
-function App() {
+function Login2() {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -147,4 +147,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login2;
