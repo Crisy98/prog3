@@ -7,8 +7,8 @@ const Cliente = () => {
       <table className="hover-table-fixed max-w-[700px] w-full mx-auto bg-gray-900 rounded-lg text-white text-center ,;">
         <thead className = "text-2x1 dark:text-white font-bold text-center">
           <tr className=" bg-gray-700  ">
-            <th class="border border-slate-250 " >Nombre</th>
-            <th class="border border-slate-250" >Tipo</th>
+            <th class="border border-slate-250 " >Equipo</th>
+            <th class="border border-slate-250" >Puerto</th>
             <th class="border border-slate-250"></th>
 
           </tr>
@@ -52,10 +52,10 @@ const Cliente = () => {
           <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-1 pl-12 px-10 rounded-lg">
             <h2 className="text-4xl dark:text-white font-bold text-center">
               {" "}
-              Crear nuevo Equipo
+              Crear Nodo
             </h2>
             <div className="flex flex-col text-gray-400 py-2">
-              <label>Nombre</label>
+              <label>Equipo</label>
               <input
                 className="rounded-lg bg-gray-700 mt-2 p-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
                 type="text"
@@ -63,7 +63,7 @@ const Cliente = () => {
               />
             </div>
             <div className="flex flex-col text-gray-400 py-2">
-              <label> Tipo </label>
+              <label> Puerto </label>
               <input
                 className="rounded-lg bg-gray-700 mt-2 p-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
                 type="text"

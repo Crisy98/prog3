@@ -8,10 +8,10 @@ const Navbar = () => {
           <li>
             <a
               href="/cliente"
-              class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+              class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 "
             >
               <svg
-                class="w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                class="w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,11 +30,10 @@ const Navbar = () => {
               <img src={sensor} alt="logo" className="w-8 h-8" />
               <span class="flex-1 ml-3 whitespace-nowrap">Persona</span>
               <span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">
-                m
               </span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#"
               class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -53,10 +52,54 @@ const Navbar = () => {
                 3
               </span>
             </a>
+          </li> */}
+          <li>
+            <a
+              href="/Planta"
+              class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <svg
+                class="flex-shrink-0 w-0 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                
+                  // fill-rule="evenodd"
+                  // d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                  // clip-rule="evenodd"
+                ></path>
+              </svg>
+              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <span class="flex-1 ml-3 whitespace-nowrap">Plantas</span>
+            </a>
           </li>
           <li>
             <a
-              href="#"
+              href="/Equipos"
+              class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <svg
+                class="flex-shrink-0 w-0 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                
+                  // fill-rule="evenodd"
+                  // d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                  // clip-rule="evenodd"
+                ></path>
+              </svg>
+              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <span class="flex-1 ml-3 whitespace-nowrap">Equipos</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Nodo"
               class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
             >
               <svg
@@ -66,15 +109,36 @@ const Navbar = () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
-                  d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                  clip-rule="evenodd"
+                
+                  // fill-rule="evenodd"
+                  // d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                  // clip-rule="evenodd"
                 ></path>
               </svg>
-              <span class="flex-1 ml-3 whitespace-nowrap">Users</span>
+              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <span class="flex-1 ml-3 whitespace-nowrap">Nodos</span>
             </a>
           </li>
           <li>
+            <a
+              href="/Sensor"
+              class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <svg
+                class="flex-shrink-0 w-10 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                
+                ></path>
+              </svg>
+              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <span class="flex-1 ml-3 whitespace-nowrap">Sensores</span>
+            </a>
+          </li>
+          {/* <li>
             <a
               href="#"
               class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -93,7 +157,7 @@ const Navbar = () => {
               </svg>
               <span class="flex-1 ml-3 whitespace-nowrap">Products</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#"
