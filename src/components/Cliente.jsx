@@ -56,10 +56,9 @@ const Cliente = () => {
         </tbody>
       </table>
       </div>
-      <div className="bg-gray-700 flex flex-col justify-center">
-
-        <div className="bg-gray-700 flex flex-col justify-center container">
-          <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-1 pl-12 px-10 rounded-lg">
+      <div className="bg-gray-700 flex flex-col justify-center ">
+        <div className="bg-gray-700 flex flex-col justify-center container ">
+          <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-1 pl-12 px-10 py-12 rounded-lg">
             <h2 className="text-4xl dark:text-white font-bold text-center">
               {" "}
               Crear Cliente
@@ -104,7 +103,7 @@ const Cliente = () => {
                 name="contraseña"
               />
             </div>
-            <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/20 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
+            <button className="text-white bg-gradient-to-r from-cyan-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-950 font-medium rounded-lg text-sm px-5 text-center mr-2 mb-2 w-full my-5 py-2">
               Registrar
             </button>
           </form>
