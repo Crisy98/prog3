@@ -1,6 +1,9 @@
 import React from "react";
 import sensor from '../img/sensor.ico';
 import silueta from '../img/silueta.ico';
+import planta from '../img/planta.ico';
+import nodo from '../img/nodo.ico';
+import equipo from '../img/equipo.ico';
 const Navbar = () => {
   return (
     <aside class="w-64" aria-label="Sidebar">
@@ -67,12 +70,10 @@ const Navbar = () => {
               >
                 <path
                 
-                  // fill-rule="evenodd"
-                  // d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                  // clip-rule="evenodd"
+                  
                 ></path>
               </svg>
-              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <img src={planta} alt="logo" className="w-8 h-8" />
               <span class="flex-1 ml-3 whitespace-nowrap">Plantas</span>
             </a>
           </li>
@@ -89,12 +90,10 @@ const Navbar = () => {
               >
                 <path
                 
-                  // fill-rule="evenodd"
-                  // d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                  // clip-rule="evenodd"
+                 
                 ></path>
               </svg>
-              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <img src={equipo} alt="logo" className="w-8 h-8" />
               <span class="flex-1 ml-3 whitespace-nowrap">Equipos</span>
             </a>
           </li>
@@ -116,7 +115,7 @@ const Navbar = () => {
                   // clip-rule="evenodd"
                 ></path>
               </svg>
-              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <img src={nodo} alt="logo" className="w-8 h-8" />
               <span class="flex-1 ml-3 whitespace-nowrap">Nodos</span>
             </a>
           </li>
