@@ -1,5 +1,6 @@
 import React from "react";
 import sensor from '../img/sensor.ico';
+import silueta from '../img/silueta.ico';
 const Navbar = () => {
   return (
     <aside class="w-64" aria-label="Sidebar">
@@ -27,7 +28,7 @@ const Navbar = () => {
               href="/Persona"
               class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
             >
-              <img src={sensor} alt="logo" className="w-8 h-8" />
+              <img src={silueta} alt="logo" className="w-8 h-8" />
               <span class="flex-1 ml-3 whitespace-nowrap">Persona</span>
               <span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">
               </span>
