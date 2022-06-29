@@ -8,7 +8,7 @@ const Persona = () => {
       </div> */}
 
         <div className="bg-gray-700 flex flex-col justify-center container">
-          <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounded-lg">
+          <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-8 px-8 py-12 rounded-lg">
             <h2 className="text-4xl dark:text-white font-bold text-center">
               {" "}
               Crear Cliente

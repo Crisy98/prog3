@@ -48,7 +48,7 @@ const Cliente = () => {
       <div className="bg-gray-700 flex flex-col justify-center">
 
         <div className="bg-gray-700 flex flex-col justify-center container">
-          <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-1 pl-12 px-10 rounded-lg">
+          <form className="max-w-[400px] w-full mx-auto bg-gray-900 p-1 pl-12 px-10 py-12 rounded-lg">
             <h2 className="text-4xl dark:text-white font-bold text-center">
               {" "}
               Crear nuevo Equipo
