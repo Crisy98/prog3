@@ -4,40 +4,39 @@ const Cliente = () => {
   return (
     <div className=" grid grid-cols-1 sm:grid-cols-2 h-screen w-full ">
       <div className=" bg-gray-700  pt-20 px-7">
-      <table className="hover-table-fixed max-w-[700px] w-full mx-auto bg-gray-900 rounded-lg text-white text-center ,;">
+      <table className="hover-table-fixed max-w-[400px] w-full mx-auto bg-gray-900 rounded-lg text-white text-center ,;">
         <thead className = "text-2x1 dark:text-white font-bold text-center">
           <tr className=" bg-gray-700  ">
             <th class="border border-slate-250 " >Nombre</th>
             <th class="border border-slate-250" >Tipo</th>
             <th class="border border-slate-250"></th>
-
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="border border-slate-600 ">Miguel Ángel </td>
-            <td class="border border-slate-600 ">Parra </td>
+            <td class="border border-slate-600 ">Equipo01 </td>
+            <td class="border border-slate-600 ">Tipo01 </td>
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button> 
             
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
           </tr>
           <tr>
-            <td class="border border-slate-600 ">Juan Carlos </td>
-            <td class="border border-slate-600 ">Lopez</td>
+            <td class="border border-slate-600 ">Equipo02 </td>
+            <td class="border border-slate-600 ">Tipo02</td>
             
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button>
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
           </tr>
           <tr>
-            <td class="border border-slate-600 ">Luciano Martin</td>
-            <td class="border border-slate-600 ">Velazques</td>
+            <td class="border border-slate-600 ">Equipo03</td>
+            <td class="border border-slate-600 ">Tipo03</td>
             
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button>
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
           </tr>
           <tr>
-            <td class="border border-slate-600 ">Patricio</td>
-            <td class="border border-slate-600 ">Ordoñe</td>
+            <td class="border border-slate-600 ">Equipo04</td>
+            <td class="border border-slate-600 ">Tipo04</td>
             
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button>
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>

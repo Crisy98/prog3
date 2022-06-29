@@ -17,41 +17,41 @@ const Cliente = () => {
         </thead>
         <tbody>
           <tr>
-            <td class="border border-slate-600 ">Miguel Ángel </td>
-            <td class="border border-slate-600 ">Parra </td>
-            <td class="border border-slate-600 ">2932569</td>
-            <td class="border border-slate-600 text-xs ">MiguelAngel@gmail.com</td>
+            <td class="border border-slate-600 ">Nodo01 </td>
+            <td class="border border-slate-600 ">00:00:00 </td>
+            <td class="border border-slate-600 ">Valor01</td>
+            <td class="border border-slate-600 text-xs ">Unidad01</td>
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button> 
             
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
           </tr>
           <tr>
-            <td class="border border-slate-600 ">Juan Carlos </td>
-            <td class="border border-slate-600 ">Lopez</td>
-            <td  class="border border-slate-600 ">2984123</td>
-            <td  class="border border-slate-600 ">@gmail.com</td>
+            <td class="border border-slate-600 ">Nodo02 </td>
+            <td class="border border-slate-600 ">00:00:00</td>
+            <td  class="border border-slate-600 ">Valor02</td>
+            <td  class="border border-slate-600 ">Unidad02</td>
             
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button>
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
           </tr>
           <tr>
-            <td class="border border-slate-600 ">Luciano Martin</td>
-            <td class="border border-slate-600 ">Velazques</td>
-            <td class="border border-slate-600 ">3432345</td>
-            <td  class="border border-slate-600 ">@gmail.com</td>
+            <td class="border border-slate-600 ">Nodo03</td>
+            <td class="border border-slate-600 ">00:00:00</td>
+            <td class="border border-slate-600 ">Valor03</td>
+            <td  class="border border-slate-600 ">Unidad03</td>
             
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button>
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
           </tr>
           <tr>
-            <td class="border border-slate-600 ">Patricio</td>
-            <td class="border border-slate-600 ">Ordoñe</td>
-            <td class="border border-slate-600 ">3431234</td>
-            <td class="border border-slate-600 ">ElPati@gmail.com</td>
+            <td class="border border-slate-600 ">Nodo04</td>
+            <td class="border border-slate-600 ">00:00:00</td>
+            <td class="border border-slate-600 ">Valor04</td>
+            <td class="border border-slate-600 ">Unidad04</td>
             
             <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-1 mb-2">Modificar</button>
             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-2 py-1 text-center mr-2 mb-2">Eliminar</button>
-          </tr>
+          </tr>   
           
         </tbody>
       </table>
